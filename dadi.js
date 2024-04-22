@@ -7,8 +7,10 @@ let dadoUtente = [
     6,
 ]
 console.log(dadoUtente)
-const randomUtente = Math.floor(Math.random() * dadoUtente.length)
-console.log(randomUtente)
+// const randomUtente = Math.floor(Math.random() * dadoUtente.length)
+// console.log(randomUtente)
+let randomUtente = Math.floor( Math.random()*6 );
+console.log(dadoUtente[randomUtente])
 
 let dadoComputer = [
     1,
@@ -19,8 +21,10 @@ let dadoComputer = [
     6,
 ]
 console.log(dadoComputer)
-const randomComputer = Math.floor(Math.random() * dadoComputer.length)
-console.log(randomComputer)
+// const randomComputer = Math.floor(Math.random() * dadoComputer.length)
+// console.log(randomComputer)
+let randomComputer = Math.floor( Math.random()*6 );
+console.log(dadoComputer[randomComputer])
 
 if (randomUtente > randomComputer) {
     console.log("Utente vince")
