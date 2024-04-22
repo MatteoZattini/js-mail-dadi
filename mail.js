@@ -15,6 +15,9 @@ let utenteEmail = document.getElementById("mail")
 
 myButton.addEventListener('click', function() {
     console.log(utenteEmail.value)
+    console.log(listaEmail.includes(utenteEmail.value))
 })
+
+
 
 
